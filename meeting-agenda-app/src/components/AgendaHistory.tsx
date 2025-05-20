@@ -14,7 +14,7 @@ function AgendaHistory() {
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/agendas')
+    fetch('https://agenda-app-backend.onrender.com')
       .then((res) => res.json())
       .then((data: Agenda[]) => {
         setAgendas(data);
