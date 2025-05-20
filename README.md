@@ -3,7 +3,7 @@
  This web app automatically generates structured meeting agendas based on your input (title, topics, duration) using AI. You can view past agendas, edit them, and download them as PDF.
 
 **LIVE DEMO**
- Frontend: https://meeting-agenda-app-k96s-fp5be9ls5-kashinath21159s-projects.vercel.app/
+ Frontend: https://meeting-agenda-app-k96s.vercel.app/
 Backend API: https://agenda-app-backend.onrender.com
 
 
