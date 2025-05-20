@@ -21,8 +21,7 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/agendas`, {
-   // Send POST request to backend AP
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/generate-agenda`, {     // Send POST request to backend AP
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

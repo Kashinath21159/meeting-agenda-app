@@ -14,7 +14,7 @@ function AgendaHistory() {
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_BACKEND_URL}/api/agendas`)
+    fetch(`${import.meta.env.VITE_BACKEND_URL}/api/agendas`)
       .then((res) => res.json())
       .then((data: Agenda[]) => {
         setAgendas(data);
