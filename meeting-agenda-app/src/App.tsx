@@ -21,7 +21,7 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await fetch('https://agenda-app-backend.onrender.com/api/generate-agenda', {
+      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/agendas`, {
    // Send POST request to backend AP
         method: 'POST',
         headers: {
